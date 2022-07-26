@@ -321,7 +321,13 @@ nav li a:hover {
 
 @media screen and (max-width: 768px) {
   .nav-links {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+  }
+
+@media screen and (max-width: 768px) {
+  header{
+    box-sizing: border-box;
   }
 }
 @media screen and (max-width: 768px) {
