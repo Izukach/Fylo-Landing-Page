@@ -323,12 +323,12 @@ nav li a:hover {
 
 @media screen and (max-width: 768px) {
   .nav-links {
-    font-size: 0.625rem;
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 768px) {
   #btn2-logo {
-    font-size: 0.625rem;
+    font-size: 1rem;
   }
 }
 
@@ -522,5 +522,11 @@ nav li a:hover {
 @media screen and (max-width: 768px) {
   a {
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0px;
   }
 }
