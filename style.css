@@ -359,6 +359,7 @@ nav li a:hover {
     align-items: center;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
   }
 }
 
@@ -524,4 +525,10 @@ nav li a:hover {
     text-decoration: none;
   }
 }
+@media screen and (max-width: 768px) {
+  .banner-three-two{
+    box-sizing:border-box;
+  }
+}
+
 
