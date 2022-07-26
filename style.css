@@ -525,9 +525,15 @@ nav li a:hover {
     text-decoration: none;
   }
 }
+
 @media screen and (max-width: 768px) {
   .banner-three-two{
     box-sizing:border-box;
+  }
+}
+@media screen and (max-width: 768px) {
+  body{
+    margin: 0px;
   }
 }
 
